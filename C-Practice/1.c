@@ -1,6 +1,14 @@
 #include <stdio.h>
-int main (int argc, char const *argv[])
+int main ()
 {
-    printf("Jeevan Kumar\n");
+    int num;
+    printf("Enter the number you want the multiplication table for: ");
+    scanf("%d", &num);
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d x %d = %d\n", num, i, num * i);
+    }
+
+    
     return 0;
 }

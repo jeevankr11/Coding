@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-0
+
 int main (){
     int a, b;
     char s ;

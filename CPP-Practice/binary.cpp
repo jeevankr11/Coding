@@ -27,7 +27,7 @@ int BinaryToDec(int binNum){
 }
 
 int main(){
-    int decNum = 85;
+    char decNum = 'b';
     //int binNum = 1011100;
     cout << decToBinary(decNum) << endl;
     //cout << BinaryToDec(binNum) << endl;
